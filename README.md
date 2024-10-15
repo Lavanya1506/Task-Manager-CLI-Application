@@ -5,7 +5,7 @@ A command-line interface (CLI) application to manage tasks. Users can add, view,
 
 ## How to Run
 Run the application using the command:
-
+python task_manager.py
 
 ## Features
 - Add tasks
