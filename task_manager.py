@@ -12,9 +12,11 @@ def login():
     else:
         print("Invalid credentials. Please try again.")
         return False
-
-    if not login():
-        return  # Exit if login fails
+        
+#  Call login outside the function and keep asking until successful
+while not login():
+    print("Please try logging in again.")
+  
 
 
 # Define a task Class
